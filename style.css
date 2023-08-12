@@ -1,0 +1,30 @@
+
+
+
+a:link{
+    color: blue;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+a:active{
+    background-color: greenyellow;
+}
+.list{
+    list-style-type: decimal;
+    
+}
+table,th,td{
+    border: 2px solid green ;
+    border-collapse: collapse;
+}
+th{
+    height: 50px;
+}
+tr:nth-child(1){
+    background: goldenrod;
+}
